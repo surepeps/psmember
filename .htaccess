@@ -1,0 +1,560 @@
+<IfModule mod_rewrite.c> 
+    RewriteEngine On
+
+    RewriteCond %{HTTP_HOST} !=dev.miquellesites.com
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} ^/upload/
+    RewriteRule ^(.*)$ https://dev.miquellesites.com/$1 [NC,L]
+
+    RewriteCond %{HTTP_HOST} !=appstrastic.com
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} ^/themes/wowonder/uploads_images/
+    RewriteRule ^(.*)$ https://dev.miquellesites.com/$1 [NC,L]
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+
+RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^password-reset/([^\/]+)(\/|)$  index.php?link1=welcome&link2=password_reset&user_id=$1 [NC,QSA]
+RewriteRule ^my-admin$ myadmin.php [NC,QSA]
+RewriteRule ^my-admin/(.*)$ myadmin.php?page=$1 [NC,QSA]
+RewriteRule ^myadmin$ myadmin.php [NC,QSA]
+RewriteRule ^myadmin/(.*)$ myadmin.php?page=$1 [NC,QSA]
+RewriteRule ^myadminPages/(.*)$ stat-admin/$1 [L]
+
+RewriteRule ^admin-cp$ admincp.php [NC,QSA]
+RewriteRule ^admin-cp/(.*)$ admincp.php?page=$1 [NC,QSA]
+RewriteRule ^admincp$ admincp.php [NC,QSA]
+RewriteRule ^admincp/(.*)$ admincp.php?page=$1 [NC,QSA]
+RewriteRule ^adminPages/(.*)$ admin-panel/$1 [L]
+
+
+RewriteRule ^my-affiliates$ myadmin.php?p=a [NC,QSA]
+RewriteRule ^my-affiliates/(.*)$ myadmin.php?p=a&&page=$1 [NC,QSA]
+
+
+RewriteRule ^buyers-dashboard$ buyer-dashboard.php [NC,QSA]
+RewriteRule ^buyers-dashboard/(.*)$ buyer-dashboard.php?page=$1 [NC,QSA]
+
+RewriteRule ^organizations$ organizations.php [NC,QSA]
+RewriteRule ^organizations/(.*)$ organizations.php?page=$1 [NC,QSA]
+
+RewriteRule ^buyers-analytics$ buyers-analytics.php [NC,QSA]
+RewriteRule ^buyers-analytics/(.*)$ buyers-analytics.php?page=$1 [NC,QSA]
+
+RewriteRule ^promoted-listings$ promoted-listings.php [NC,QSA]
+RewriteRule ^promoted-listings/(.*)$ promoted-listings.php?page=$1 [NC,QSA]
+
+
+RewriteRule ^start-up$ index.php?link1=start-up [NC,QSA]
+RewriteRule ^start-up2$ index.php?link1=start-up2 [NC,QSA]
+RewriteRule ^saved-posts/(.*)$ index.php?link1=saved-posts [NC,QSA]
+RewriteRule ^unusual-login$ index.php?link1=unusual-login [NC,QSA]
+RewriteRule ^activated/(.*)$ index.php?link1=activate&link2=$1 [NC,QSA]
+RewriteRule ^search$ index.php?link1=search [NC,QSA]
+RewriteRule ^ads-create$ index.php?link1=ads-create [NC,QSA]
+RewriteRule ^search/([^\/]+)(\/|)$ index.php?link1=search&query=$1 [NC,QSA]
+RewriteRule ^app/([^\/]+)(\/|)$ index.php?link1=app&app_id=$1 [NC,QSA]
+RewriteRule ^messages/([^\/]+)(\/|)$  index.php?link1=messages&user=$1 [QSA]
+RewriteRule ^terms/([^\/]+)(\/|)$  index.php?link1=terms&type=$1 [QSA]
+RewriteRule ^video-call/([^\/]+)(\/|)$  index.php?link1=video-call&call_id=$1 [QSA]
+RewriteRule ^video-call-api/([^\/]+)(\/|)$  index.php?link1=video-call-api&call_id=$1 [QSA]
+RewriteRule ^post/([^\/]+)(\/|)$ index.php?link1=post&id=$1 [NC,QSA]
+RewriteRule ^game/([^\/]+)(\/|)$ index.php?link1=game&id=$1 [NC,QSA]
+RewriteRule ^upgraded$ index.php?link1=upgraded [NC,QSA]
+RewriteRule ^get_news_feed$ index.php?link1=get_news_feed [NC,QSA]
+RewriteRule ^games$ index.php?link1=games [NC,QSA]
+RewriteRule ^new-game$ index.php?link1=new-game [NC,QSA]
+RewriteRule ^go-pro(/?|)$ index.php?link1=go-pro [NC,QSA]
+RewriteRule ^checkout-ultimate(/?|)$ index.php?link1=checkout-ultimate [NC,QSA]
+RewriteRule ^checkout-vip(/?|)$ index.php?link1=checkout-vip [NC,QSA]
+RewriteRule ^checkout-pro(/?|)$ index.php?link1=checkout-pro [NC,QSA]
+RewriteRule ^stripe-payment(/?|)$ index.php?link1=stripe-payment [NC,QSA]
+RewriteRule ^new-go-pro(/?|)$ index.php?link1=new-go-pro [NC,QSA]
+RewriteRule ^oops$ index.php?link1=oops [NC,QSA]
+RewriteRule ^user-activation$ index.php?link1=user-activation [NC,QSA]
+RewriteRule ^hashtag/([^\/]+)(\/|)$ index.php?link1=hashtag&hash=$1 [NC,QSA]
+RewriteRule ^follow-requests/(.*)$ index.php?link1=follow-requests[NC,QSA]
+RewriteRule ^p/([^\/]+)(\/|)$ index.php?link1=page&p=$1 [NC,QSA]
+RewriteRule ^g/([^\/]+)(\/|)$ index.php?link1=group&g=$1 [NC,QSA]
+RewriteRule ^home$ index.php?link1=home [QSA]
+RewriteRule ^404$ index.php?link1=404 [QSA]
+
+RewriteRule ^equity-deal-finder(/?|)$ index.php?link1=equity-deal-finder [NC,QSA]
+
+
+RewriteRule ^welcome(.*)$ index.php?link1=welcome [QSA,L]
+RewriteRule ^register(/?|)$ index.php?link1=register [QSA,L]
+RewriteRule ^reg-buyers(/?|)$ index.php?link1=reg-buyers [QSA,L]
+RewriteRule ^create-fbads(/?|)$ index.php?link1=create-fbads [QSA,L]
+RewriteRule ^confirm-sms(/?|)$ index.php?link1=confirm-sms [QSA,L]
+RewriteRule ^confirm-sms-password(/?|)$ index.php?link1=confirm-sms-password [QSA,L]
+RewriteRule ^forgot-password(/?|)$ index.php?link1=forgot-password [QSA,L]
+RewriteRule ^activate(/?|)$ index.php?link1=activate [QSA]
+RewriteRule ^company-directory(/?|)$ index.php?link1=company-directory [QSA]
+RewriteRule ^suggested-companies(/?|)$ index.php?link1=suggested-companies [QSA]
+RewriteRule ^groups(/?|)$ index.php?link1=groups [QSA]
+RewriteRule ^suggested-groups(/?|)$ index.php?link1=suggested-groups [QSA]
+RewriteRule ^create-group(/?|)$ index.php?link1=create-group [QSA]
+RewriteRule ^add-company(/?|)$ index.php?link1=add-company [QSA]
+RewriteRule ^all-company(/?|)$ index.php?link1=all-company [QSA]
+RewriteRule ^deal-review(/?|)$ index.php?link1=deal-review [QSA]
+RewriteRule ^contact/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=contact&x=$1&id=$2 [NC,QSA]
+RewriteRule ^contact(/?|)$ index.php?link1=contact [QSA]
+RewriteRule ^conversations(/?|)$ index.php?link1=conversations [QSA]
+RewriteRule ^callHistory(/?|)$ index.php?link1=callHistory [QSA]
+RewriteRule ^voicemail(/?|)$ index.php?link1=voicemail [QSA]
+RewriteRule ^recordedMessage(/?|)$ index.php?link1=recordedMessage [QSA]
+RewriteRule ^properties(/?|)$ index.php?link1=properties [QSA]
+RewriteRule ^deal-site(/?|)$ index.php?link1=deal-site [QSA]
+RewriteRule ^campaign-pipeline/([A-Za-z0-9_-]+)$ index.php?link1=campaign-pipeline&type=$1 [QSA]
+RewriteRule ^campaign-builder/([A-Za-z0-9_-]+)$ index.php?link1=campaign-builder&pipe_id=$1 [NC,QSA]
+RewriteRule ^new-campaign-pipeline/([A-Za-z0-9_-]+)$ index.php?link1=new-campaign-pipeline&type=$1 [QSA]
+# RewriteRule ^campaign-builder/([A-Za-z0-9_-]+)$ index.php?link1=campaign-builder&pipe_id=$1 [NC,QSA]
+RewriteRule ^find-owner(/?|)$ index.php?link1=find-owner [QSA]
+RewriteRule ^logout(/?|)$ index.php?link1=logout [QSA]
+RewriteRule ^contact-us(/?|)$ index.php?link1=contact-us [QSA]
+RewriteRule ^setting$ index.php?link1=setting [QSA]
+RewriteRule ^messages(/?|)$  index.php?link1=messages [QSA]
+RewriteRule ^saved-posts$ index.php?link1=saved-posts [NC,QSA]
+RewriteRule ^albums$ index.php?link1=albums [QSA]
+RewriteRule ^albums/([A-Za-z0-9_-]+)$ index.php?link1=albums&user=$1 [QSA]
+RewriteRule ^album/([A-Za-z0-9_-]+)$ index.php?link1=album&id=$1 [QSA]
+RewriteRule ^create-album$ index.php?link1=create-album [QSA]
+RewriteRule ^create-album/([A-Za-z0-9_-]+)$ index.php?link1=create-album&album=$1  [QSA]
+RewriteRule ^$ index.php?link1=home [QSA]
+RewriteRule ^setting/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=setting&user=$1&page=$2 [NC,QSA]
+RewriteRule ^mydeal-review/([A-Za-z0-9_-]+)$  index.php?link1=mydeal-review&reviewcode=$1 [NC,QSA]
+RewriteRule ^page-setting/([^\/]+)(\/|)$  index.php?link1=page-setting&page=$1 [QSA]
+RewriteRule ^page-setting/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=page-setting&page=$1&link3=$2 [QSA]
+RewriteRule ^group-setting/([^\/]+)(\/|)$ index.php?link1=group-setting&group=$1 [QSA]
+RewriteRule ^group-setting/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=group-setting&group=$1&link3=$2 [QSA]
+RewriteRule ^new-product(/?|)$ index.php?link1=new-product [NC,QSA]
+RewriteRule ^edit-product/([A-Za-z0-9_]+)$ index.php?link1=edit-product&id=$1 [NC,QSA]
+RewriteRule ^products(/?|)$ index.php?link1=products [NC,QSA]
+RewriteRule ^products/([A-Za-z0-9_-]+)$ index.php?link1=products&c_id=$1 [QSA]
+RewriteRule ^my-products(/?|)$ index.php?link1=my-products [QSA]
+RewriteRule ^admin-crm(/?|)$ index.php?link1=admin-crm [QSA]
+RewriteRule ^my-broadcast(/?|)$ index.php?link1=my-broadcast [QSA]
+RewriteRule ^add-list(/?|)$ index.php?link1=add-list [QSA]
+RewriteRule ^add-sms-list(/?|)$ index.php?link1=add-sms-list [QSA]
+RewriteRule ^view-my-list(/?|)$ index.php?link1=view-my-list [QSA]
+RewriteRule ^view-my-sms-list(/?|)$ index.php?link1=view-my-sms-list [QSA]
+RewriteRule ^leads(/?|)$ index.php?link1=leads [QSA]
+RewriteRule ^buyer-finder(/?|)$ index.php?link1=buyer-finder [QSA]
+RewriteRule ^buyers-matching(/?|)$ index.php?link1=buyers-matching [QSA]
+RewriteRule ^marketing(/?|)$ index.php?link1=marketing [QSA]
+RewriteRule ^my-sms(/?|)$ index.php?link1=my-sms [QSA]
+RewriteRule ^property-insight(/?|)$ index.php?link1=property-insight [QSA]
+RewriteRule ^fb-ads(/?|)$ index.php?link1=fb-ads [QSA]
+RewriteRule ^new-listings(/?|)$ index.php?link1=new-listings [QSA]
+RewriteRule ^my-messages(/?|)$ index.php?link1=my-messages [QSA]
+RewriteRule ^get-new-number/(\d+)(/?|)$ index.php?link1=get-new-number&ac=$1 [QSA]
+RewriteRule ^deal-pipeline(/?|)$ index.php?link1=deal-pipeline [QSA]
+RewriteRule ^dashboard(/?|)$ index.php?link1=dashboard [QSA]
+RewriteRule ^property-funnel(/?|)$ index.php?link1=property-funnel [QSA]
+RewriteRule ^create-lead(/?|)$ index.php?link1=create-lead [QSA]
+RewriteRule ^site-pages/(.*)$ index.php?link1=site-pages&page_name=$1 [NC,QSA]
+RewriteRule ^lessons(/?|)$ index.php?link1=lessons [NC,QSA]
+RewriteRule ^sharer(/?|)$ index.php?link1=sharer [NC,QSA]
+RewriteRule ^lesson-category/(\d+)(/?|)$ index.php?link1=lesson-category&id=$1 [NC,QSA]
+RewriteRule ^create-lesson(/?|)$ index.php?link1=create-lesson [NC,QSA]
+RewriteRule ^edit-lesson/(\d+)(/?|)$ index.php?link1=edit-lesson&id=$1 [NC,QSA]
+RewriteRule ^my-lessons(/?|)$ index.php?link1=my-lessons [NC,QSA]
+RewriteRule ^my-leads(/?|)$ index.php?link1=my-leads [NC,QSA]
+RewriteRule ^action-plans(/?|)$ index.php?link1=action-plans [NC,QSA]
+RewriteRule ^reverse-search(/?|)$ index.php?link1=reverse-search [NC,QSA]
+RewriteRule ^read-lesson/(.*)$ index.php?link1=read-lesson&id=$1 [NC,QSA]
+RewriteRule ^app_api$ index.php?link1=app_api [NC,QSA]
+RewriteRule ^api_request$ index.php?link1=app_api [NC,QSA]
+RewriteRule ^authorize$ index.php?link1=authorize [NC,QSA]
+RewriteRule ^poke$ index.php?link1=poke [NC,QSA]
+RewriteRule ^most_liked$ index.php?link1=most_liked [NC,QSA]
+RewriteRule ^my-tasks$ index.php?link1=my-tasks [NC,QSA]
+RewriteRule ^partners/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=partners&x=$1&id=$2 [NC,QSA]
+RewriteRule ^partners$ index.php?link1=partners [NC,QSA]
+RewriteRule ^live(/?|)$ index.php?link1=live [NC,QSA]
+
+
+RewriteRule ^buyer-matches/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=buyer-matches&x=$1&id=$2 [NC,QSA]
+RewriteRule ^buyer-matches$ index.php?link1=buyer-matches [NC,QSA]
+
+RewriteRule ^properties/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=properties&x=$1&id=$2 [NC,QSA]
+RewriteRule ^vip-buyer/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$ index.php?link1=update-vip-buyers&page=$1&bid=$2 [NC,QSA]
+# RewriteRule ^vip-buyer/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=vip-buyer&x=autodailer-vip-buyers&bid=$1 [NC,QSA]
+
+# RewriteRule ^vip-buyer/autodailer/([A-Za-z0-9_-]+)$ index.php?link1=autodailer-vip-buyers&bid=$1 [NC,QSA]
+
+# RewriteRule ^vip-buyer/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=vip-buyer&x=autodailer-vip-buyers&bid=$1 [NC,QSA]
+# RewriteRule ^vip-buyer/([A-Za-z0-9_]+)/([A-Za-z0-9_-]+)$  index.php?link1=vip-buyer&bid=$1&id=$2 [NC,QSA]
+# RewriteRule ^vip-buyer/autodailer/([A-Za-z0-9_-]+)$ index.php?link1=autodailer-vip-buyers&bid=$1 [NC,QSA]
+RewriteRule ^wonderful$ index.php?theme=wonderful [NC,QSA]
+RewriteRule ^wowonder$ index.php?theme=wowonder [NC,QSA]
+# **** FORUM ****
+
+RewriteRule ^forum(/?|)$ index.php?link1=forum [NC,QSA]
+RewriteRule ^forum/members(/?|)$ index.php?link1=forum-members [NC,QSA]
+RewriteRule ^forum/members/([a-zA-Z]{0,1})(/?|)$ index.php?link1=forum-members-byname&char=$1 [NC,QSA]
+RewriteRule ^forum/search(/?|)$ index.php?link1=forum-search [NC,QSA]
+RewriteRule ^forum/search-result/(/?|)$ index.php?link1=forum-search-result [NC,QSA]
+RewriteRule ^forum/events(/?|)$ index.php?link1=forum-events [NC,QSA]
+RewriteRule ^forum/help(/?|)$ index.php?link1=forum-help [NC,QSA]
+RewriteRule ^forums/(\d+)(/?|)$ index.php?link1=forums&fid=$1 [NC,QSA]
+RewriteRule ^forums/add/(\d+)(/?|)$ index.php?link1=forumaddthred&fid=$1 [NC,QSA]
+RewriteRule ^forums/thread/(\d+)(/?|)$ index.php?link1=showthread&tid=$1 [NC,QSA]
+RewriteRule ^forums/thread/reply/(\d+)(/?|)$ index.php?link1=threadreply&tid=$1 [NC,QSA]
+RewriteRule ^forums/thread/quote/(\d+)(/?|)$ index.php?link1=threadquote&tid=$1 [NC,QSA]
+RewriteRule ^forums/thread/edit/(\d+)(/?|)$ index.php?link1=editreply&tid=$1 [NC,QSA]
+RewriteRule ^forums/user/threads(/?|)$ index.php?link1=mythreads [NC,QSA]
+RewriteRule ^forums/user/threads/edit/(\d+)(/?|)$ index.php?link1=edithread&tid=$1 [NC,QSA]
+RewriteRule ^forums/user/messages(/?|)$ index.php?link1=mymessages [NC,QSA]
+
+# **** EVENTS ****
+RewriteRule ^events(/?|)$ index.php?link1=events [NC,QSA]
+RewriteRule ^events/create-event(/?|)$ index.php?link1=create-event [NC,QSA]
+RewriteRule ^events/edit/(\d+)/(/?|)$ index.php?link1=edit-event&eid=$1 [NC,QSA]
+RewriteRule ^events/my(/?|)$ index.php?link1=my-events [NC,QSA]
+RewriteRule ^events/going(/?|)$ index.php?link1=events-going [NC,QSA]
+RewriteRule ^events/invited(/?|)$ index.php?link1=events-invited [NC,QSA]
+RewriteRule ^events/interested(/?|)$ index.php?link1=events-interested [NC,QSA]
+RewriteRule ^events/past(/?|)$ index.php?link1=events-past [NC,QSA]
+RewriteRule ^events/calendar(/?|)$ index.php?link1=events-calendar [NC,QSA]
+RewriteRule ^events/(\d+)(/?|)$ index.php?link1=show-event&eid=$1 [NC,QSA]
+
+
+# **** OPENHOUSE EVENTS ****
+RewriteRule ^openhouses(/?|)$ index.php?link1=openhouses [NC,QSA]
+RewriteRule ^openhouses/create-showing(/?|)$ index.php?link1=create-openhouse [NC,QSA]
+RewriteRule ^openhouses/edit/(\d+)/(/?|)$ index.php?link1=edit-openhouse&eid=$1 [NC,QSA]
+RewriteRule ^openhouses/my(/?|)$ index.php?link1=my-openhouses [NC,QSA]
+RewriteRule ^openhouses/going(/?|)$ index.php?link1=openhouses-going [NC,QSA]
+RewriteRule ^openhouses/invited(/?|)$ index.php?link1=openhouses-invited [NC,QSA]
+RewriteRule ^openhouses/interested(/?|)$ index.php?link1=openhouses-interested [NC,QSA]
+RewriteRule ^openhouses/past(/?|)$ index.php?link1=openhouses-past [NC,QSA]
+RewriteRule ^openhouses/(\d+)(/?|)$ index.php?link1=open-openshouse&eid=$1 [NC,QSA]
+
+# *** MOVIES ***
+RewriteRule ^movies(/?|)$ index.php?link1=movies [NC,QSA]
+RewriteRule ^movies/genre/([A-Za-z-]+)(/?|)$ index.php?link1=movies-genre&genre=$1 [NC,QSA]
+RewriteRule ^movies/country/([A-Za-z-]+)(/?|)$ index.php?link1=movies-country&country=$1 [NC,QSA]
+RewriteRule ^movies/watch/(\d+)(/?|)$ index.php?link1=watch-film&film-id=$1 [NC,QSA]
+
+# *** ADS ***
+RewriteRule ^ads(/?|)$ index.php?link1=ads [NC,QSA]
+RewriteRule ^wallet(/?|)$ index.php?link1=wallet [NC,QSA]
+RewriteRule ^send_money(/?|)$ index.php?link1=send_money [NC,QSA]
+RewriteRule ^ads/create(/?|)$ index.php?link1=create-ads [NC,QSA]
+RewriteRule ^ads/edit/(\d+)(/?|)$ index.php?link1=edit-ads&id=$1 [NC,QSA]
+RewriteRule ^ads/chart/(\d+)(/?|)$ index.php?link1=chart-ads&id=$1 [NC,QSA]
+RewriteRule ^admin/ads/edit/(\d+)(/?|)$ index.php?link1=manage-ads&id=$1 [NC,QSA]
+
+# *** STATUS ***
+RewriteRule ^status/create(/?|)$ index.php?link1=create-status [NC,QSA]
+RewriteRule ^more-status(/?|)$ index.php?link1=more-status [NC,QSA]
+
+
+# *** FIND  NEARBY ***
+RewriteRule ^friends-nearby(/?|)$ index.php?link1=friends-nearby [NC,QSA]
+
+# *** FIND CONNECTIONS ***
+RewriteRule ^find-connections(/?|)$ index.php?link1=find-connections [NC,QSA]
+
+RewriteRule ^add-criteria(/?|)$ index.php?link1=add-criteria [NC,QSA]
+
+
+RewriteRule ^testing(/?|)$ index.php?link1=testing [NC,QSA]
+
+
+# *** LISTINGS ***
+RewriteRule ^add-listing(/?|)$ index.php?link1=add-listing [NC,QSA]
+RewriteRule ^quick-add-listing(/?|)$ index.php?link1=quick-add-listing [NC,QSA]
+RewriteRule ^view-listings(/?|)$ index.php?link1=new-listings [NC,QSA]
+
+# RewriteRule ^promoted-listings$ index.php?link1=promoted-listings [NC,QSA]
+
+RewriteRule ^promote-listing/([A-Za-z0-9_-]+)$ index.php?link1=promote-listing&id=$1 [NC,QSA]
+RewriteRule ^my-promoted-listings(/?|)$ index.php?link1=my-promoted-listings [NC,QSA]
+RewriteRule ^my-buyers-match(/?|)$ index.php?link1=my-buyers-match [NC,QSA]
+RewriteRule ^my-power-match(/?|)$ index.php?link1=my-power-match [NC,QSA]
+RewriteRule ^my-power-match-buyer(/?|)$ index.php?link1=my-power-match-buyer [NC,QSA]
+RewriteRule ^my-power-match-property(/?|)$ index.php?link1=my-power-match-property [NC,QSA]
+
+RewriteRule ^listing/([A-Za-z0-9_-]+)$ index.php?link1=promoted-listings-detail&id=$1 [NC,QSA]
+RewriteRule ^property/([A-Za-z0-9_-]+)$ index.php?link1=new-property&id=$1 [NC,QSA]
+RewriteRule ^property/([A-Za-z0-9_-]+)/([^\/]+)(\/|)$ index.php?link1=new-property&id=$1&offerId=$2 [NC,QSA]
+RewriteRule ^new-property/([A-Za-z0-9_-]+)$ index.php?link1=new-property&id=$1 [NC,QSA]
+RewriteRule ^edit-listing/([A-Za-z0-9_-]+)$ index.php?link1=edit-listing&id=$1 [NC,QSA]
+RewriteRule ^promoted-property/([A-Za-z0-9_-]+)$ index.php?link1=promoted-property&id=$1 [NC,QSA]
+RewriteRule ^promoted-property/([A-Za-z0-9_-]+)/([^\/]+)(\/|)$ index.php?link1=promoted-property&id=$1&offerId=$2 [NC,QSA]
+
+# *** fix and flip ***
+RewriteRule ^fix-and-flip(/?|)$ index.php?link1=fix-and-flip [NC,QSA]
+
+# *** buy and hold ***
+RewriteRule ^buy-and-hold(/?|)$ index.php?link1=buy-and-hold [NC,QSA]
+
+# ***Documents ****
+RewriteRule ^view-documents(/?|)$ index.php?link1=new-documents [NC,QSA]
+
+
+# *** COMPS ***
+RewriteRule ^comp-listings(/?|)$ index.php?link1=comp-listings [NC,QSA]
+
+# *** MARKETING TOOLS ***
+RewriteRule ^marketing-tools(/?|)$ index.php?link1=marketing-tools [NC,QSA]
+
+RewriteRule ^add-criteria(/?|)$ index.php?link1=add-criteria [NC,QSA]
+RewriteRule ^propertyinfo(/?|)$ index.php?link1=propertyinfo [NC,QSA]
+RewriteRule ^make-an-offer(/?|)$ index.php?link1=make-an-offer [NC,QSA]
+RewriteRule ^my-counter-offer(/?|)$ index.php?link1=my-counter-offer [NC,QSA]
+RewriteRule ^my-schedule-visit(/?|)$ index.php?link1=my-schedule-visit [NC,QSA]
+
+
+RewriteRule ^tracking-code(/?|)$ index.php?link1=tracking-code [QSA]
+RewriteRule ^keyword(/?|)$ index.php?link1=keyword [QSA]
+
+
+# *** Buyer Dashboard ***
+RewriteRule ^buyer-dashboard(/?|)$ index.php?link1=buyer-dashboard [NC,QSA]
+RewriteRule ^buyer-dashboard-connections(/?|)$ index.php?link1=buyer-dashboard-connections [NC,QSA]
+RewriteRule ^buyer-dashboard-find-connections(/?|)$ index.php?link1=buyer-dashboard-find-connections [NC,QSA]
+RewriteRule ^buyer-dashboard-favorite-properties(/?|)$ index.php?link1=buyer-dashboard-favorite-properties [NC,QSA]
+RewriteRule ^buyer-dashboard-match-properties(/?|)$ index.php?link1=buyer-dashboard-match-properties [NC,QSA]
+RewriteRule ^buyer-dashboard-suggested-properties(/?|)$ index.php?link1=buyer-dashboard-suggested-properties [NC,QSA]
+RewriteRule ^buyer-dashboard-offer-pending(/?|)$ index.php?link1=buyer-dashboard-offer-pending [NC,QSA]
+RewriteRule ^buyer-dashboard-offer-accepted(/?|)$ index.php?link1=buyer-dashboard-offer-accepted [NC,QSA]
+RewriteRule ^buyer-dashboard-offer-rejected(/?|)$ index.php?link1=buyer-dashboard-offer-rejected [NC,QSA]
+RewriteRule ^buyer-dashboard-offer-counter(/?|)$ index.php?link1=buyer-dashboard-offer-counter [NC,QSA]
+RewriteRule ^buyer-dashboard-offer-expired(/?|)$ index.php?link1=buyer-dashboard-offer-expired [NC,QSA]
+RewriteRule ^buyer-dashboard-visits-pending(/?|)$ index.php?link1=buyer-dashboard-visits-pending [NC,QSA]
+RewriteRule ^buyer-dashboard-visits-accepted(/?|)$ index.php?link1=buyer-dashboard-visits-accepted [NC,QSA]
+RewriteRule ^buyer-dashboard-visits-rejected(/?|)$ index.php?link1=buyer-dashboard-visits-rejected [NC,QSA]
+RewriteRule ^buyer-dashboard-visits-reschedule(/?|)$ index.php?link1=buyer-dashboard-visits-reschedule [NC,QSA]
+RewriteRule ^buyer-dashboard-properties(/?|)$ index.php?link1=buyer-dashboard-properties [NC,QSA]
+
+
+
+
+
+
+# *** investor Dashboard ***
+RewriteRule ^investor-dashboard(/?|)$ index.php?link1=investor-dashboard [NC,QSA]
+RewriteRule ^investor-dashboard-connections(/?|)$ index.php?link1=investor-dashboard-connections [NC,QSA]
+RewriteRule ^investor-dashboard-find-connections(/?|)$ index.php?link1=investor-dashboard-find-connections [NC,QSA]
+RewriteRule ^investor-dashboard-favorite-properties(/?|)$ index.php?link1=investor-dashboard-favorite-properties [NC,QSA]
+RewriteRule ^investor-dashboard-match-properties(/?|)$ index.php?link1=investor-dashboard-match-properties [NC,QSA]
+RewriteRule ^investor-dashboard-suggested-properties(/?|)$ index.php?link1=investor-dashboard-suggested-properties [NC,QSA]
+RewriteRule ^investor-dashboard-offer-pending(/?|)$ index.php?link1=investor-dashboard-offer-pending [NC,QSA]
+RewriteRule ^investor-dashboard-offer-accepted(/?|)$ index.php?link1=investor-dashboard-offer-accepted [NC,QSA]
+RewriteRule ^investor-dashboard-offer-rejected(/?|)$ index.php?link1=investor-dashboard-offer-rejected [NC,QSA]
+RewriteRule ^investor-dashboard-offer-counter(/?|)$ index.php?link1=investor-dashboard-offer-counter [NC,QSA]
+RewriteRule ^investor-dashboard-offer-expired(/?|)$ index.php?link1=investor-dashboard-offer-expired [NC,QSA]
+RewriteRule ^investor-dashboard-visits-pending(/?|)$ index.php?link1=investor-dashboard-visits-pending [NC,QSA]
+RewriteRule ^investor-dashboard-visits-accepted(/?|)$ index.php?link1=investor-dashboard-visits-accepted [NC,QSA]
+RewriteRule ^investor-dashboard-visits-rejected(/?|)$ index.php?link1=investor-dashboard-visits-rejected [NC,QSA]
+RewriteRule ^investor-dashboard-visits-reschedule(/?|)$ index.php?link1=investor-dashboard-visits-reschedule [NC,QSA]
+
+
+
+
+
+RewriteRule ^leaderboard(/?|)$ index.php?link1=leaderboard [NC,QSA]
+# *** Seller Dashboard ***
+RewriteRule ^seller-dashboard(/?|)$ index.php?link1=seller-dashboard [NC,QSA]
+RewriteRule ^seller-dashboard-email-reports(/?|)$ index.php?link1=seller-dashboard-email-reports [NC,QSA]
+RewriteRule ^seller-dashboard-find-connections(/?|)$ index.php?link1=seller-dashboard-find-connections [NC,QSA]
+RewriteRule ^seller-dashboard-connections(/?|)$ index.php?link1=seller-dashboard-connections [NC,QSA]
+RewriteRule ^my-properties(/?|)$ index.php?link1=my-properties [NC,QSA]
+RewriteRule ^seller-dashboard-add-property(/?|)$ index.php?link1=seller-dashboard-add-property [NC,QSA]
+RewriteRule ^seller-dashboard-offer-pending(/?|)$ index.php?link1=seller-dashboard-offer-pending [NC,QSA]
+RewriteRule ^seller-dashboard-offer-accepted(/?|)$ index.php?link1=seller-dashboard-offer-accepted [NC,QSA]
+RewriteRule ^seller-dashboard-offer-rejected(/?|)$ index.php?link1=seller-dashboard-offer-rejected [NC,QSA]
+RewriteRule ^seller-dashboard-offer-counter(/?|)$ index.php?link1=seller-dashboard-offer-counter [NC,QSA]
+RewriteRule ^seller-dashboard-offer-expired(/?|)$ index.php?link1=seller-dashboard-offer-expired [NC,QSA]
+RewriteRule ^seller-dashboard-visits-pending(/?|)$ index.php?link1=seller-dashboard-visits-pending [NC,QSA]
+RewriteRule ^seller-dashboard-visits-accepted(/?|)$ index.php?link1=seller-dashboard-visits-accepted [NC,QSA]
+RewriteRule ^seller-dashboard-visits-rejected(/?|)$ index.php?link1=seller-dashboard-visits-rejected [NC,QSA]
+RewriteRule ^seller-dashboard-visits-reschedule(/?|)$ index.php?link1=seller-dashboard-visits-reschedule [NC,QSA]
+RewriteRule ^seller-dashboard-property-buyers/([A-Za-z0-9_-]+)$ index.php?link1=seller-dashboard-property-buyers&slug=$1 [NC,QSA] 
+
+# *** Agent Dashboard ***
+RewriteRule ^agent-dashboard(/?|)$ index.php?link1=agent-dashboard [NC,QSA]
+RewriteRule ^agent-dashboard-find-connections(/?|)$ index.php?link1=agent-dashboard-find-connections [NC,QSA]
+RewriteRule ^agent-dashboard-all-buyers(/?|)$ index.php?link1=agent-dashboard-all-buyers [NC,QSA]
+RewriteRule ^agent-dashboard-add-buyer(/?|)$ index.php?link1=agent-dashboard-add-buyer [NC,QSA]
+RewriteRule ^agent-dashboard-connections(/?|)$ index.php?link1=agent-dashboard-connections [NC,QSA]
+RewriteRule ^agent-dashboard-my-properties(/?|)$ index.php?link1=agent-dashboard-my-properties [NC,QSA]
+RewriteRule ^agent-dashboard-add-property(/?|)$ index.php?link1=agent-dashboard-add-property [NC,QSA]
+RewriteRule ^agent-dashboard-offer-pending(/?|)$ index.php?link1=agent-dashboard-offer-pending [NC,QSA]
+RewriteRule ^agent-dashboard-offer-accepted(/?|)$ index.php?link1=agent-dashboard-offer-accepted [NC,QSA]
+RewriteRule ^agent-dashboard-offer-rejected(/?|)$ index.php?link1=agent-dashboard-offer-rejected [NC,QSA]
+RewriteRule ^agent-dashboard-offer-counter(/?|)$ index.php?link1=agent-dashboard-offer-counter [NC,QSA]
+RewriteRule ^agent-dashboard-offer-expired(/?|)$ index.php?link1=agent-dashboard-offer-expired [NC,QSA]
+RewriteRule ^agent-dashboard-visits-pending(/?|)$ index.php?link1=agent-dashboard-visits-pending [NC,QSA]
+RewriteRule ^agent-dashboard-visits-accepted(/?|)$ index.php?link1=agent-dashboard-visits-accepted [NC,QSA]
+RewriteRule ^agent-dashboard-visits-rejected(/?|)$ index.php?link1=agent-dashboard-visits-rejected [NC,QSA]
+RewriteRule ^agent-dashboard-visits-reschedule(/?|)$ index.php?link1=agent-dashboard-visits-reschedule [NC,QSA]
+
+
+# *** IMPORT LISTING INFO ***
+RewriteRule ^import-files$ index.php?link1=import-files [NC,QSA]
+
+# *** Wholeseller Dashboard ***
+RewriteRule ^wholeseller-dashboard(/?|)$ index.php?link1=wholeseller-dashboard [NC,QSA]
+RewriteRule ^wholeseller-dashboard-find-connections(/?|)$ index.php?link1=wholeseller-dashboard-find-connections [NC,QSA]
+RewriteRule ^wholeseller-dashboard-all-buyers(/?|)$ index.php?link1=wholeseller-dashboard-all-buyers [NC,QSA]
+RewriteRule ^wholeseller-dashboard-add-buyer(/?|)$ index.php?link1=wholeseller-dashboard-add-buyer [NC,QSA]
+RewriteRule ^wholeseller-dashboard-connections(/?|)$ index.php?link1=wholeseller-dashboard-connections [NC,QSA]
+RewriteRule ^wholeseller-dashboard-my-properties(/?|)$ index.php?link1=wholeseller-dashboard-my-properties [NC,QSA]
+RewriteRule ^wholeseller-dashboard-add-property(/?|)$ index.php?link1=wholeseller-dashboard-add-property [NC,QSA]
+RewriteRule ^wholeseller-dashboard-offer-pending(/?|)$ index.php?link1=wholeseller-dashboard-offer-pending [NC,QSA]
+RewriteRule ^wholeseller-dashboard-offer-accepted(/?|)$ index.php?link1=wholeseller-dashboard-offer-accepted [NC,QSA]
+RewriteRule ^wholeseller-dashboard-offer-rejected(/?|)$ index.php?link1=wholeseller-dashboard-offer-rejected [NC,QSA]
+RewriteRule ^wholeseller-dashboard-offer-counter(/?|)$ index.php?link1=wholeseller-dashboard-offer-counter [NC,QSA]
+RewriteRule ^wholeseller-dashboard-offer-expired(/?|)$ index.php?link1=wholeseller-dashboard-offer-expired [NC,QSA]
+RewriteRule ^wholeseller-dashboard-visits-pending(/?|)$ index.php?link1=wholeseller-dashboard-visits-pending [NC,QSA]
+RewriteRule ^wholeseller-dashboard-visits-accepted(/?|)$ index.php?link1=wholeseller-dashboard-visits-accepted [NC,QSA]
+RewriteRule ^wholeseller-dashboard-visits-rejected(/?|)$ index.php?link1=wholeseller-dashboard-visits-rejected [NC,QSA]
+RewriteRule ^wholeseller-dashboard-visits-reschedule(/?|)$ index.php?link1=wholeseller-dashboard-visits-reschedule [NC,QSA]
+
+
+
+
+
+
+# *** USER ROLES INPUT INFO ***
+RewriteRule ^startup-buyer$ index.php?link1=startup-buyer [NC,QSA]
+RewriteRule ^startup-seller$ index.php?link1=startup-seller [NC,QSA]
+RewriteRule ^startup-investor$ index.php?link1=startup-investor [NC,QSA]
+RewriteRule ^startup-agent$ index.php?link1=startup-agent [NC,QSA]
+
+RewriteRule ^api/v3/login$ login_api.php [NC,QSA]
+
+RewriteRule ^api(/?|)$ api-v2.php [NC,QSA]
+RewriteRule ^api/([^\/]+)(\/|)$ api-v2.php?type=$1 [NC,QSA]
+
+RewriteRule ^sapi(/?|)$ simpleapi.php [NC,QSA]
+RewriteRule ^sapi/([^\/]+)(\/|)$ simpleapi.php?type=$1 [NC,QSA]
+
+RewriteRule ^_$ requests.php [QSA]
+
+RewriteRule ^graph-success$ index.php?link1=graph-success [NC,QSA]
+RewriteRule ^developers$ index.php?link1=developers [NC,QSA]
+RewriteRule ^apps$ index.php?link1=apps [NC,QSA]
+RewriteRule ^create-app$ index.php?link1=create-app [NC,QSA]
+RewriteRule ^graph$ index.php?link1=graph [NC,QSA]
+RewriteRule ^oauth$ index.php?link1=oauth [NC,QSA]
+
+
+RewriteRule ^boosted-pages$ index.php?link1=boosted-pages [NC,QSA]
+RewriteRule ^boosted-posts$ index.php?link1=boosted-posts [NC,QSA]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^setting/([A-Za-z0-9_-]+)$  index.php?link1=setting&page=$1 [NC,QSA]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^@([^\/]+)(\/|)$  index.php?link1=timeline&u=$1 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9_]+)/([^\/]+)(\/|)$  index.php?link1=timeline&u=$1&type=$2 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\/]+)(\/|)$  index.php?link1=timeline&u=$1 [QSA]
+
+
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/opentype
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+<IfModule mod_security.c>
+  SecFilterScanPOST Off
+</IfModule>
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+## EXPIRES CACHING
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_value post_max_size 26000M
+   php_value upload_max_filesize 2560M
+   php_value output_buffering Off
+   php_value max_execution_time 9999999
+   php_value max_input_vars 20000000
+   php_value max_input_time 6000000
+   php_value memory_limit 25600M
+   php_flag zlib.output_compression Off
+   php_flag display_errors Off
+   php_value session.gc_maxlifetime 1440000
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+</IfModule>
+<IfModule lsapi_module>
+   php_value post_max_size 26000M
+   php_value upload_max_filesize 2560M
+   php_value output_buffering Off
+   php_value max_execution_time 9999999
+   php_value max_input_vars 20000000
+   php_value max_input_time 6000000
+   php_value memory_limit 25600M
+   php_flag zlib.output_compression Off
+   php_flag display_errors Off
+   php_value session.gc_maxlifetime 1440000
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

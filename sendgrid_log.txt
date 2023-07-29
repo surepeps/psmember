@@ -1,0 +1,1708 @@
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"skalberer@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "Attention Investors flip or tear down this College Park home",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/012450.jpg",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "01/30/2020",
+                            "propertydescription": "Attention Investors, flip or tear down this College Park home! This home sits on a huge corner lot and currently offers 3 bedrooms, 2 baths and close to 1900 square feet of living space.
+
+If you decide to flip this home it would need a full rehab, besides the a/c which is only 5 years old. New build opportunities are selling close to $900k if you decided to tear down the existing home and build new. This home has endless options for any kind of investor. Call us now to purchase!",
+                            "propertyurl": "https://dev.strastic.com/property/226",
+                            "equityamount": "105,000",
+                            "retailvalue": "460,000.00",
+                            "investorprice": "300,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Oct 20, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/226",
+                            "rehabamount": "55,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "     1882",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+{"errors":[{"message":"Bad Request","field":null,"help":null}]}
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"wrecc@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "Attention Investors flip or tear down this College Park home",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/012450.jpg",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "01/30/2020",
+                            "propertydescription": "Attention Investors, flip or tear down this College Park home! This home sits on a huge corner lot and currently offers 3 bedrooms, 2 baths and close to 1900 square feet of living space.
+
+If you decide to flip this home it would need a full rehab, besides the a/c which is only 5 years old. New build opportunities are selling close to $900k if you decided to tear down the existing home and build new. This home has endless options for any kind of investor. Call us now to purchase!",
+                            "propertyurl": "https://dev.strastic.com/property/226",
+                            "equityamount": "105,000",
+                            "retailvalue": "460,000.00",
+                            "investorprice": "300,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Oct 20, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/226",
+                            "rehabamount": "55,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "     1882",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+{"errors":[{"message":"Bad Request","field":null,"help":null}]}
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"skalberer@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "Attention Investors flip or tear down this College Park home",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/012450.jpg",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "01/30/2020",
+                            "propertydescription": "Attention Investors, flip or tear down this College Park home! This home sits on a huge corner lot and currently offers 3 bedrooms, 2 baths and close to 1900 square feet of living space.
+
+If you decide to flip this home it would need a full rehab, besides the a/c which is only 5 years old. New build opportunities are selling close to $900k if you decided to tear down the existing home and build new. This home has endless options for any kind of investor. Call us now to purchase!",
+                            "propertyurl": "https://dev.strastic.com/property/226",
+                            "equityamount": "105,000",
+                            "retailvalue": "460,000.00",
+                            "investorprice": "300,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Oct 20, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/226",
+                            "rehabamount": "55,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "      1882",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+{"errors":[{"message":"Bad Request","field":null,"help":null}]}
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"wrecc@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "Attention Investors flip or tear down this College Park home",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/012450.jpg",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "01/30/2020",
+                            "propertydescription": "Attention Investors, flip or tear down this College Park home! This home sits on a huge corner lot and currently offers 3 bedrooms, 2 baths and close to 1900 square feet of living space.
+
+If you decide to flip this home it would need a full rehab, besides the a/c which is only 5 years old. New build opportunities are selling close to $900k if you decided to tear down the existing home and build new. This home has endless options for any kind of investor. Call us now to purchase!",
+                            "propertyurl": "https://dev.strastic.com/property/226",
+                            "equityamount": "105,000",
+                            "retailvalue": "460,000.00",
+                            "investorprice": "300,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Oct 20, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/226",
+                            "rehabamount": "55,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "      1882",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+{"errors":[{"message":"Bad Request","field":null,"help":null}]}
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"lisaboothrealtor@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "Brand new fix and flip property in orlando fl No",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "1975",
+                            "propertydescription": "Brand new fix and flip property in orlando fl. No repairs need",
+                            "propertyurl": "https://dev.strastic.com/property/361",
+                            "equityamount": "110,000",
+                            "retailvalue": "210,000.00",
+                            "investorprice": "95,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 12, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/361",
+                            "rehabamount": "5,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1700",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"wrecc@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "Brand new fix and flip property in orlando fl No",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "1975",
+                            "propertydescription": "Brand new fix and flip property in orlando fl. No repairs need",
+                            "propertyurl": "https://dev.strastic.com/property/361",
+                            "equityamount": "110,000",
+                            "retailvalue": "210,000.00",
+                            "investorprice": "95,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 12, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/361",
+                            "rehabamount": "5,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1700",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "fv",
+                            "imageurl":"",
+                            "beds": "1",
+                            "baths": "1",
+                            "builtin": "2007",
+                            "propertydescription": "fv",
+                            "propertyurl": "https://dev.strastic.com/property/365",
+                            "equityamount": "-1,945,891",
+                            "retailvalue": "54,343.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 21, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/365",
+                            "rehabamount": "234.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "THIS IS A PERFECT LISTING FOR ME",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "2018",
+                            "propertydescription": "THIS IS A PERFECT LISTING FOR ME",
+                            "propertyurl": "https://dev.strastic.com/property/370",
+                            "equityamount": "-336,000",
+                            "retailvalue": "65,000.00",
+                            "investorprice": "400,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 26, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/370",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1500",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "hghgvvhb",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "3.5",
+                            "builtin": "2003",
+                            "propertydescription": "hghgvvhb",
+                            "propertyurl": "https://dev.strastic.com/property/371",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 26, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/371",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "yufgv ujhn bjbjb bbbn jb",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "1.5",
+                            "builtin": "2005",
+                            "propertydescription": "yufgv ujhn bjbjb bbbn  jb",
+                            "propertyurl": "https://dev.strastic.com/property/372",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 27, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/372",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "sdfjsldfjdlsfjlsjf dslf sdfl sdfsd",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "2018",
+                            "propertydescription": "sdfjsldfjdlsfjlsjf dslf sdfl sdfsd",
+                            "propertyurl": "https://dev.strastic.com/property/677",
+                            "equityamount": "90,000",
+                            "retailvalue": "500,000.00",
+                            "investorprice": "400,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 28, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/677",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1222",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "sdfjsldfjdlsfjlsjf dslf sdfl sdfsd",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "2018",
+                            "propertydescription": "sdfjsldfjdlsfjlsjf dslf sdfl sdfsd",
+                            "propertyurl": "https://dev.strastic.com/property/677",
+                            "equityamount": "90,000",
+                            "retailvalue": "500,000.00",
+                            "investorprice": "400,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 28, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/677",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1222",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "sdfjsldfjdlsfjlsjf dslf sdfl sdfsd",
+                            "imageurl":"",
+                            "beds": "3",
+                            "baths": "2",
+                            "builtin": "2018",
+                            "propertydescription": "sdfjsldfjdlsfjlsjf dslf sdfl sdfsd",
+                            "propertyurl": "https://dev.strastic.com/property/677",
+                            "equityamount": "90,000",
+                            "retailvalue": "500,000.00",
+                            "investorprice": "400,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 28, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/677",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1222",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (53).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (53).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (53).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "good house",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (88).png",
+                            "beds": "2",
+                            "baths": "4",
+                            "builtin": "2018",
+                            "propertydescription": "good house",
+                            "propertyurl": "https://dev.strastic.com/property/681",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/681",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "good house",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (88).png",
+                            "beds": "2",
+                            "baths": "4",
+                            "builtin": "2018",
+                            "propertydescription": "good house",
+                            "propertyurl": "https://dev.strastic.com/property/681",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/681",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "good house",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (88).png",
+                            "beds": "2",
+                            "baths": "4",
+                            "builtin": "2018",
+                            "propertydescription": "good house",
+                            "propertyurl": "https://dev.strastic.com/property/681",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/681",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (42).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "  3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (42).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "  3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (42).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "Retail",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "  3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (114).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "    3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (114).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "    3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "jhbvcnd n jdn d",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (114).png",
+                            "beds": "2",
+                            "baths": "3.5",
+                            "builtin": "2001",
+                            "propertydescription": "jhbvcnd n jdn d",
+                            "propertyurl": "https://dev.strastic.com/property/680",
+                            "equityamount": "999,000",
+                            "retailvalue": "3,000,000.00",
+                            "investorprice": "2,000,000.00",
+                            "dealtype": "",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/680",
+                            "rehabamount": "1,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "    3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "yes its availabe",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (72).png",
+                            "beds": "2",
+                            "baths": "3",
+                            "builtin": "2016",
+                            "propertydescription": "yes its availabe",
+                            "propertyurl": "https://dev.strastic.com/property/682",
+                            "equityamount": "999,020",
+                            "retailvalue": "3,000,033.00",
+                            "investorprice": "2,000,002.00",
+                            "dealtype": "Lease Purchase",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/682",
+                            "rehabamount": "1,011.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "yes its availabe",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (72).png",
+                            "beds": "2",
+                            "baths": "3",
+                            "builtin": "2016",
+                            "propertydescription": "yes its availabe",
+                            "propertyurl": "https://dev.strastic.com/property/682",
+                            "equityamount": "999,020",
+                            "retailvalue": "3,000,033.00",
+                            "investorprice": "2,000,002.00",
+                            "dealtype": "Lease Purchase",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/682",
+                            "rehabamount": "1,011.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "yes its availabe",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Screenshot (72).png",
+                            "beds": "2",
+                            "baths": "3",
+                            "builtin": "2016",
+                            "propertydescription": "yes its availabe",
+                            "propertyurl": "https://dev.strastic.com/property/682",
+                            "equityamount": "999,020",
+                            "retailvalue": "3,000,033.00",
+                            "investorprice": "2,000,002.00",
+                            "dealtype": "Lease Purchase",
+                            "todaydate": "Nov 29, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/682",
+                            "rehabamount": "1,011.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "3435",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "dvxfa",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Clipboard06.jpg",
+                            "beds": "4",
+                            "baths": "2",
+                            "builtin": "2011",
+                            "propertydescription": "dvxfa",
+                            "propertyurl": "https://dev.strastic.com/property/683",
+                            "equityamount": "90,000",
+                            "retailvalue": "900,000.00",
+                            "investorprice": "800,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 30, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/683",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1400",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "dvxfa",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Clipboard06.jpg",
+                            "beds": "4",
+                            "baths": "2",
+                            "builtin": "2011",
+                            "propertydescription": "dvxfa",
+                            "propertyurl": "https://dev.strastic.com/property/683",
+                            "equityamount": "90,000",
+                            "retailvalue": "900,000.00",
+                            "investorprice": "800,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 30, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/683",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1400",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "dvxfa",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Clipboard06.jpg",
+                            "beds": "4",
+                            "baths": "2",
+                            "builtin": "2011",
+                            "propertydescription": "dvxfa",
+                            "propertyurl": "https://dev.strastic.com/property/683",
+                            "equityamount": "90,000",
+                            "retailvalue": "900,000.00",
+                            "investorprice": "800,000.00",
+                            "dealtype": "Fix and Flip",
+                            "todaydate": "Nov 30, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/683",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": "1400",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"tiffany.teasley@gmail.con"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "dvxfa",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Clipboard06.jpg",
+                            "beds": "4",
+                            "baths": "2",
+                            "builtin": "2011",
+                            "propertydescription": "dvxfa",
+                            "propertyurl": "https://dev.strastic.com/property/683",
+                            "equityamount": "90,000",
+                            "retailvalue": "900,000.00",
+                            "investorprice": "800,000.00",
+                            "dealtype": "",
+                            "todaydate": "Nov 30, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/683",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": " 1400",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "dvxfa",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Clipboard06.jpg",
+                            "beds": "4",
+                            "baths": "2",
+                            "builtin": "2011",
+                            "propertydescription": "dvxfa",
+                            "propertyurl": "https://dev.strastic.com/property/683",
+                            "equityamount": "90,000",
+                            "retailvalue": "900,000.00",
+                            "investorprice": "800,000.00",
+                            "dealtype": "",
+                            "todaydate": "Nov 30, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/683",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": " 1400",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------
+{
+                      "personalizations": [
+                        {
+                          "to": 
+                            [{"email":"admin@gmail.com"}]
+                          ,
+                          "bcc": 
+                            [{"email":"wrecck@yahoo.com"}]
+                          ,
+                          
+                          "dynamic_template_data": {
+                            "subject": 
+                            "dvxfa",
+                            "imageurl":"https://dev.strastic.com/themes/wowonder/uploads_images/Clipboard06.jpg",
+                            "beds": "4",
+                            "baths": "2",
+                            "builtin": "2011",
+                            "propertydescription": "dvxfa",
+                            "propertyurl": "https://dev.strastic.com/property/683",
+                            "equityamount": "90,000",
+                            "retailvalue": "900,000.00",
+                            "investorprice": "800,000.00",
+                            "dealtype": "",
+                            "todaydate": "Nov 30, 2020",
+                            "viewallurl": "https://dev.strastic.com/property/683",
+                            "rehabamount": "10,000.00",
+                            "iconurl": "https://dev.strastic.com/themes/wowonder/uploads_images/icon-prt.png",
+                            "sizeofproperty": " 1400",
+                            "websitetitle": "Strastic LLC",
+                            "websiteurl": "https://strastic.com"
+                            
+                          }
+                        }
+                      ],
+					  
+                      "from": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "reply_to": {
+                        "email": "noreply@strastic.com",
+                        "name": "Strastic Property Match"
+                      },
+                      "template_id": "d-bc06b1b298c24b5bbe36acd45249bba9",
+                      
+                            
+                    }
+------------------------------------
+
+------------------------------------

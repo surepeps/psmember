@@ -1,0 +1,10 @@
+{
+    "require": {
+	"monolog/monolog": "2.0.*",
+        "mpratt/relativetime": "^1.5",
+        "mpdf/mpdf": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
